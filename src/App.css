@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  color: white;
+  background-color: #234E9E;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: inherit;
+  margin: 20px 0;
+}
+
+.aplicacion-to-do {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos lista tareas */
+
+.to-do-main-list {
+  width: 600px;
+  min-height: 500px;
+  background-color: #4B83EB;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+}

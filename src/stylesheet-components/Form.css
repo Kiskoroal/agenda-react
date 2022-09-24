@@ -1,0 +1,37 @@
+.to-do-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.to-do-input {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border: 2px solid white;
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.to-do-btn {
+    padding: 17px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -ms-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: #234E9E;
+    text-transform: capitalize;
+    color: white;
+}
